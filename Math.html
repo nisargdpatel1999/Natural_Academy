@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Natural Academy</title>
+		<style>
+			#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.nav {
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+background-color: blue;
+}
+
+.navbar-brand{
+	color: green;
+}
+
+body{
+	background-color: #CCFF00;
+}
+em{
+
+	color: red;
+}
+.button1 {width: 250px;}
+.button2 {width: 50%;}
+.button3 {width: 100%;}
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.disabled {
+	opacity: 0.6;
+    cursor: not-allowed;
+}
+a{
+	text-decoration: none;
+	color: #CCFF00;
+}
+		</style>
+	</head>
+
+	<body>
+		<nav>
+			<ul id="nav">
+				<li class="nav" style="float:right"><a class="navbar-brand" href="#" style="color:CCFF00;">Natural Academy</a></li>
+				<li class="nav"><a href="index.html" style="color:CCFF00;">Home</a></li>
+				<li class="nav"><a class="active" href="#Services.html" style="color:CCFF00;">Math</a></li>
+				<li class="nav"><a href="#Services.html" style="color:CCFF00;">Science</a></li>
+				<li class="nav"><a href="#Services.html" style="color:CCFF00;">English</a></li>
+				<li class="nav"><a href="#Contact.html" style="color:CCFF00;">About</a></li>
+			</ul>
+		</nav>
+		<div style="background-color:CCFF00; height:100%; margin-top:50px; margin-left:1%; margin-right:1%">
+			<h1 align="Center">Welcome to Math Class</h1>
+			<h2 class="button1 disabled" align="Center">6th Grade</h2>
+			<h2 class="button2 disabled" align="Center">7th Grade</h2>
+			<a href="Math-8.html"><h2 class="button3" align="Center">8th Grade</h2></a>
+		</div>
+	</body>
+</html>

@@ -157,131 +157,129 @@ em{
 	color: black;
 	border: 2px solid;
 }
-							.accordion.one {
-				    -webkit-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
-				    -moz-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
-				    box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
-				    font-family: Arial, Helvetica, sans-serif;
-				    border-color: #505050;
-				    border-style: solid;
-				    border-width: 0px;
-				    border-radius: 8px;
-				    margin: 0 auto;
-				    height: 290px;
-				    width: 864px;
-				}
+.accordion {
+    -webkit-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    -moz-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #505050;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 32px;
+    margin: 0 auto;
+    height: 381px;
+    width: 700px;
+}
 
-				.accordion.one > ul > li,
-				.one .accordion-title,
-				.one .accordion-content,
-				.one .accordion-separator {
-				    float: left;
-				}
+.accordion > ul > li,
+.accordion-title,
+.accordion-content,
+.accordion-separator {
+    float: none;
+}
 
-				.accordion.one > ul > li {
-				    background-color: #1f1f1f;
-				    margin-right: -700px;
-				    margin-bottom: -0px;
-				}
+.accordion > ul > li {
+    background-color: #1f1f1f;
+    margin-right: -0px;
+    margin-bottom: -240px;
+}
 
-				.one .accordion-select:checked ~ .accordion-separator {
-				    margin-right: 700px;
-				    margin-bottom: 0px;
-				}
+.accordion-select:checked ~ .accordion-separator {
+    margin-right: 0px;
+    margin-bottom: 240px;
+}
 
-				.one .accordion-title,
-				.one .accordion-select  {
-				    background-color: #2d2d2d;
-				    color: #ffffff;
-				    width: 40px;
-				    height: 290px;
-				    font-size: 15px;
-				}
+.accordion-title,
+.accordion-select  {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    width: 700px;
+    height: 45px;
+    font-size: 15px;
+}
 
-				.one .accordion-title span {
-				    margin-bottom: 20px; 
-				    margin-left: 20px;
-				}
+.accordion-title span {
+    margin-bottom: 20px; 
+    margin-left: 23px;
+}
 
-				.one .accordion-select:hover ~ .accordion-title,
-				.one .accordion-select:checked ~ .accordion-title {
-				    background-color: #3068cc;
-				}
+.accordion-select:hover ~ .accordion-title,
+.accordion-select:checked ~ .accordion-title {
+    background-color: #3068cc;
+}
 
-				.one .accordion-title span  {	
-				    transform: rotate(-90deg);
-				    -o-transform: rotate(-90deg);
-				    -moz-transform: rotate(-90deg);
-				    -webkit-transform: rotate(-90deg);
-				    -ms-writing-mode: lr-bt;
-				    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-				    margin-left: 0px;
-				    line-height: 40px;
-				}
+.accordion-title span  {	
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-writing-mode: lr-tb;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    margin-bottom: 0px;
+    line-height: 45px;
+}
 
-				.one .accordion-content {
-				    background-color: #3e3e3e;
-				    color: #f5f2f0;
-				    height: 234px;
-				    width: 644px;
-				    padding: 28px;
-				}
+.accordion-content {
+    background-color: #3e3e3e;
+    color: #f5f2f0;
+    height: 184px;
+    width: 644px;
+    padding: 28px;
+}
 
-				.one .accordion-title,
-				.one .accordion-select:checked ~ .accordion-content {
-				    margin-right: 1px;
-				    margin-bottom: 1px;
-				}
+.accordion-title,
+.accordion-select:checked ~ .accordion-content {
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
 
-				/* Do not change following properties, they aren't 
-				generated automatically and are common for each slider. */
-				.accordion {
-				    overflow: hidden;
-				}
+/* Do not change following properties, they aren't 
+generated automatically and are common for each slider. */
+.accordion {
+    overflow: hidden;
+}
 
-				.accordion > ul {
-				    margin: 0;
-				    padding: 0;
-				    list-style: none;
-				    width: 101%;
-				}
+.accordion > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 101%;
+}
 
-				.accordion > ul > li,
-				.accordion-title {
-				    position: relative;
-				}
+.accordion > ul > li,
+.accordion-title {
+    position: relative;
+}
 
-				.accordion-select {
-				    cursor: pointer;
-				    position: absolute;
-				    opacity: 0;
-				    top: 0;
-				    left: 0;
-				    margin: 0;
-				    z-index: 1;
-				}
+.accordion-select {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1;
+}
 
-				.accordion-title span {
-				    display: block;
-				    position: absolute;
-				    bottom: 0px;
-				    width: 100%;
-				    white-space: nowrap;
-				}
+.accordion-title span {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    white-space: nowrap;
+}
 
-				.accordion-content {
-				    position: relative;
-				    overflow: auto;
-				}
+.accordion-content {
+    position: relative;
+    overflow: auto;
+}
 
-				.accordion-separator {
-				    transition: margin 0.3s ease 0.1s;
-				    -o-transition: margin 0.3s ease 0.1s;
-				    -moz-transition: margin 0.3s ease 0.1s;
-				    -webkit-transition: margin 0.3s ease 0.1s;
-				}
-
-
+.accordion-separator {
+    transition: margin 0.3s ease 0.1s;
+    -o-transition: margin 0.3s ease 0.1s;
+    -moz-transition: margin 0.3s ease 0.1s;
+    -webkit-transition: margin 0.3s ease 0.1s;
+}
 		</style>
 	</head>
 
@@ -311,49 +309,49 @@ em{
 			<button class="button button10">Scientific Notation with Word Problems</button>
 			<hr style="height:1px;">
 			<h3>Repeating Decimals:</h3>
-										<div class="accordion one">
-							    <ul>
-							        <li>
-							            <input type="radio" name="select" class="accordion-select" checked />
-							            <div class="accordion-title">
-							                <span>Answers to Worksheets</span>
-							            </div>
-							            <div class="accordion-content">
-							               	Content
-							            </div>
-							            <div class="accordion-separator"></div>
-							        </li>
-							        <li>
-							            <input type="radio" name="select" class="accordion-select" />
-							            <div class="accordion-title">
-							                <span>Practice/Worksheets</span>
-							            </div>
-							            <div class="accordion-content">
-							                Content
-							            </div>
-							            <div class="accordion-separator"></div>
-							        </li>
-							        <li>
-							            <input type="radio" name="select" class="accordion-select" />
-							            <div class="accordion-title">
-							                <span>Videos</span>
-							            </div>
-							            <div class="accordion-content">
-							                <video width="315" height="240" controls>
-							                	<source src="Converting fraction to repeatig decimal.mp4">
-							                </video>
-							                <p>Fffffffff</p>
-							                <video width="315" height="240" controls>
-							                	<source src="Converting repeating decimals to fractions 1.mp4">
-							                </video>
-							                <video width="315" height="240" controls>
-							                	<source src="Converting repeating decimals to fractions 2.mp4">
-							                </video>
-							            </div>
-							            <div class="accordion-separator"></div>
-							        </li>
-							    </ul>
-							</div>
+						
+						
+						<div class="accordion">
+    <ul>
+        <li>
+            <input type="radio" name="select" class="accordion-select" checked />
+            <div class="accordion-title">
+                <span>Title</span>
+            </div>
+            <div class="accordion-content">
+                Content
+            </div>
+            <div class="accordion-separator"></div>
+        </li>
+        <li>
+            <input type="radio" name="select" class="accordion-select" />
+            <div class="accordion-title">
+                <span>Title</span>
+            </div>
+            <div class="accordion-content">
+                Content
+            </div>
+            <div class="accordion-separator"></div>
+        </li>
+        <li>
+            <input type="radio" name="select" class="accordion-select" />
+            <div class="accordion-title">
+                <span>Title</span>
+            </div>
+            <div class="accordion-content">
+                Content
+            </div>
+            <div class="accordion-separator"></div>
+        </li>
+    </ul>
+</div>
+<div style="text-align:center;margin-top:50px;">
+    <a href="http://accordionslider.com/" style="color:#568EEA;text-decoration:none;">
+        Css Accordion Slider Generator
+    </a>
+</div>
+						
+						
 							<br>
 			<hr style="height:1px; width:50%;" align="left">
 			<h3>Square Roots and Cube Roots:</h3>
